@@ -21,7 +21,7 @@ API RESTful desenvolvida com NestJS, TypeScript, TypeORM e PostgreSQL, implement
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
+git clone https://github.com/vitucordeiro/crud-adasi
 cd crud_adasi
 ```
 
@@ -40,7 +40,7 @@ Edite o arquivo `.env` com suas configurações.
 
 1. Inicie os containers:
 ```bash
-docker-compose up -d
+docker-compose up --build
 ```
 
 2. A API estará disponível em `http://localhost:3000`
